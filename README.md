@@ -40,6 +40,7 @@ pip install -r requirements.txt
 ```
 ##### 4. Download the model files from [here](https://drive.google.com/drive/folders/17KxvKpPHvHmrfdOyJClU0o95JTDAAG60?usp=sharing) and put it in the same working directory.
 
+
 ##### 5. Then, in cmd or Anaconda prompt write the following code:
 ```bash
 python app.py
