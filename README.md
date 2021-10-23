@@ -13,12 +13,12 @@ The project is divided into four main parts:
 1. Data Extraction: In this step, I have extracted the data from the yaml files and convert into a dataframe so that the machine learning model can use this data and predict the runs of the first innings.
 2. Feature Engineering: This is the most challenging part of the project. Ball by ball data was extracted from the "innings" feature.
 Top 10 teams were selected, city was extracted from venue and only those cities were considered in which 600+ balls were bowled.
-Apart from these, there are a lot of other feature engineering techniques were applied and important features were selected.
+Apart from these, lot of other feature engineering techniques were applied and important features were selected.
 3. Model Building: Scikit-Learn's pipeline was used to make the code reusable. XgBoost Regressor was trained on the selected features
 after testing with various other regression algorithms. Model was evaluated on the test data set in terms of R2 score. 
 Model performed really well with slight amount of hyper parameter tuning giving an R2 score of 0.987 and Mean Absolute Error of 1.67
 which is pretty much good.
-4. Model Deployment: Finally, the model was deployed on local server(port:8501) using Streamlit.
+4. Model Deployment: Finally, the model was deployed on local server (port:8501) using Streamlit.
 
 ### Demo:
 ![image](https://user-images.githubusercontent.com/75041273/137994959-58497f32-a796-43f2-9aa2-9eb1c3d8de04.png)
