@@ -1,6 +1,6 @@
 # Men-s-T20-Cricket-Runs-Predictor
 
-### Goal: A streamlit web app that predicts the first innings runs scored by a team taking the runs scored in the first five overs as input.
+### Goal: A streamlit web app that predicts the first innings runs scored by a team taking the runs of the first five overs as input.
 
 ### Data set: 
 The data set is downloaded from [Kaggle](https://www.kaggle.com/veeralakrishna/cricsheet-a-retrosheet-for-cricket?select=t20s).
