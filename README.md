@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 ##### 5. Then, in cmd or Anaconda prompt write the following code:
 ```bash
-streamlit app.run
+streamlit run app.py
 ```
 
 ##### Make sure to change the directory to the root folder. The folder structure should be same as of this repository otherwise it will throw error. 
